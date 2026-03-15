@@ -6,7 +6,8 @@
 
 backend:
   name: git-gateway
-  branch: main       # The branch Netlify deploys from
+  branch: main
+  auth_scope: repo    # The branch Netlify deploys from
 
 # Where uploaded images get stored in the repo
 media_folder: "assets/images/projects"
