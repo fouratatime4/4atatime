@@ -5,8 +5,9 @@
 # ============================================================
 
 backend:
-  name: git-gateway
-  branch: main            # The branch Netlify deploys from
+  name: github
+  repo: fouratatime4/4atatime
+  branch: main         # The branch Netlify deploys from
 
 # Where uploaded images get stored in the repo
 media_folder: "assets/images/projects"

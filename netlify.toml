@@ -40,6 +40,11 @@
   to   = "/wip.html"
   status = 301
 
+[[redirects]]
+  from = "/#recovery_token=:token"
+  to   = "/admin/#recovery_token=:token"
+  status = 301
+
 # ── Headers ────────────────────────────────────────────────
 # Security headers + performance
 
