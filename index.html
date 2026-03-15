@@ -67,5 +67,13 @@
   <!-- Scripts -->
   <script src="/js/components.js"></script>
   <script src="/js/nav.js"></script>
+  <script>
+    (function() {
+      var hash = window.location.hash;
+      if (hash && (hash.indexOf('invite_token=') > -1 || hash.indexOf('recovery_token=') > -1)) {
+        window.location.replace('/admin/' + hash);
+      }
+    })();
+  </script>
 </body>
 </html>
