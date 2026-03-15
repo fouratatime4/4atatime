@@ -11,6 +11,18 @@
 # Also handles old Framer URLs so any saved links still work.
 
 [[redirects]]
+  from = "/#invite_token=:token"
+  to   = "/admin/#invite_token=:token"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/#recovery_token=:token"
+  to   = "/admin/#recovery_token=:token"
+  status = 302
+  force = true
+
+[[redirects]]
   from = "/index_uiux"
   to   = "/uiux.html"
   status = 301
