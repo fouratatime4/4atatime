@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "dreams-of-reality",
+      "date": "2023–ongoing",
+      "image": "dreams-of-reality.png",
+      "tags": ["Mix-Media", "Collage"],
+      "title": "Dreams of Reality",
+      "url": "/gallery/dreams-of-reality.html",
+      "description": "Mixed media dreamscapes.",
+      "updateLog": [
+        { "date": "2024", "text": "\"Radicalight\" tattooed in Berlin" }
+      ]
+    },
+    {
+      "id": "shapes-traces",
+      "date": "2024–ongoing",
+      "image": "shapes-traces.png",
+      "tags": ["Geometrical", "Space"],
+      "title": "Shapes, Traces",
+      "url": "/gallery/shapes-traces.html",
+      "description": "Geometrical (and non-geometrical) goods.",
+      "updateLog": [
+        { "date": "02/07/2024", "text": "\"Hail to the Horizon\" tattooed in Amsterdam" }
+      ]
+    },
+    {
+      "id": "touch-of-zen",
+      "date": "2024–ongoing",
+      "image": "touch-of-zen.png",
+      "tags": ["Chinese", "Calligraphic"],
+      "title": "Touch of Zen",
+      "url": "/gallery/touch-of-zen.html",
+      "description": "It's more natural to embrace my culture being physically elsewhere :)",
+      "updateLog": [
+        { "date": "22/12/2024", "text": "\"符籙\" series done and sent out as Xmas presents." }
+      ]
+    },
+    {
+      "id": "draws-and-crawls",
+      "date": "11/11/2024",
+      "image": "draws-and-crawls.png",
+      "tags": ["Illustration", "Previous"],
+      "title": "Draws & Crawls",
+      "url": "https://www.are.na/4-atatime/old-drawings",
+      "description": "Illustrations & sketches from a few years back — style changed but still cute to archive. Mostly coloured.",
+      "updateLog": [
+        { "date": "2021", "text": "Collection sorted on Are.na" }
+      ]
+    }
+  ]
+}

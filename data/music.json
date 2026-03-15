@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "china-post",
+      "date": "2024–ongoing",
+      "image": "china-post.jpg",
+      "tags": ["Instrumental", "Duo"],
+      "title": "China Post",
+      "url": "https://www.are.na/4-atatime/china-post",
+      "description": "Duo side project with Luca (percussion, bass) and me (strings, vocal).",
+      "updateLog": [
+        { "date": "12/2024", "text": "Recorded \"Tube Swimmer\" and \"Nothing in Particular\"." }
+      ]
+    },
+    {
+      "id": "audio-visual",
+      "date": "restarted, 05/2025",
+      "image": "audio-visual.png",
+      "tags": ["Touchdesigner", "P5.JS"],
+      "title": "Audio-Visual",
+      "url": "https://youtube.com/playlist?list=PL5Mi6YA1kIDx5Mbk6AIsAySoShZymlLIF&si=ptnLWYQZcyx7WC_a",
+      "description": "Part-time programmer, full-time dreamer.",
+      "updateLog": [
+        { "date": "05/2025", "text": "\"Frames, in particular\" uploaded." }
+      ]
+    },
+    {
+      "id": "4atatime-music",
+      "date": "2025–ongoing",
+      "image": "4atatime-music.png",
+      "tags": ["Bedroom Production", "Ambient"],
+      "title": "4atatime",
+      "url": "https://soundcloud.com/lexie-yu-270763808",
+      "description": "While my guitar gently weeps (in my bedroom).",
+      "updateLog": [
+        { "date": "02/2024", "text": "\"At Shore\" (demos) uploaded" }
+      ]
+    },
+    {
+      "id": "wuhan-blue",
+      "date": "2024–ongoing",
+      "image": "wuhan-blue.png",
+      "tags": ["Band", "Krautrock"],
+      "title": "Wuhan Blue",
+      "url": "/wip.html",
+      "description": "Wuhan Blue is a band based in Berlin. I play guitar there.",
+      "updateLog": [
+        { "date": "18/01/2025", "text": "Gig in Erfurt." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "projects": [
+    {
+      "id": "taoist-fu-lu",
+      "date": "12/2025–01/2026",
+      "image": "taoist-fu-lu.png",
+      "tags": ["Wallpaper", "Chinese"],
+      "title": "Taoist \"Fú Lù\" Wallpapers",
+      "url": "/wip.html",
+      "description": "A tiny fun project with my dear friend, who's becoming a Taoist \"Shifu\": give-away wallpapers with actual Taoist Fú Lù (\"符箓\") for good luck, 3 different themes.",
+      "updateLog": [
+        { "date": "01/2026", "text": "Published on Xiaohongshu" }
+      ]
+    },
+    {
+      "id": "designs-for-beers",
+      "date": "ongoing",
+      "image": "designs-for-beers.png",
+      "tags": ["Poster", "Commission"],
+      "title": "Designs for Beers",
+      "url": "/gallery/tangible-designs.html",
+      "description": "Casual & commissioned poster work collection, continuously growing.",
+      "updateLog": [
+        { "date": "06/2025", "text": "Book cover design: \"Der gefesselte Prometheus\"" }
+      ]
+    },
+    {
+      "id": "sisyphos",
+      "date": "2024–ongoing",
+      "image": "sisyphos.png",
+      "tags": ["Collective", "Social Work"],
+      "title": "Sisyphos",
+      "url": "/gallery/sisyphos.html",
+      "description": "\"Sisyphos\" is a collective started off from a charity fundraiser event in Dec 2024. Since then, we have been organising various events regarding social work and beyond.",
+      "updateLog": [
+        { "date": "02/2025", "text": "Bookclub on \"Starting Somewhere: Community Organizing for Socially Awkward People Who've Had Enough\" — Roderick Douglass" }
+      ]
+    },
+    {
+      "id": "4see",
+      "date": "ongoing",
+      "image": "4see.jpg",
+      "tags": [".mp4", ".jpg"],
+      "title": "4:see",
+      "url": "https://www.are.na/4-atatime/holy-cement",
+      "description": "Paths and chances taken, by me and my Sanyo Xacti.",
+      "updateLog": [
+        { "date": "2024", "text": "\"Curved dust, ivory cement\" — a visual journey revisiting the socialist architecture in Baku, Azerbaijan." }
+      ]
+    },
+    {
+      "id": "bie-records",
+      "date": "11/11/2024",
+      "image": "bie-records.jpg",
+      "tags": ["Record Label", "Album Cover"],
+      "title": "bié Records",
+      "url": "/gallery/bie-records.html",
+      "description": "I designed some cute album covers for my favourite Chinese record label <3",
+      "updateLog": [
+        { "date": "2024", "text": "Vinyl cover for \"Walking on Thin Ice\" released." }
+      ]
+    },
+    {
+      "id": "editorial-design",
+      "date": "2023–2024",
+      "image": "editorial-design.png",
+      "tags": ["Editorial", "Reports"],
+      "title": "Editorial Design",
+      "url": "/gallery/editorial.html",
+      "description": "Digital collages for editorial purposes — apart from making them the traditional way, I started also messing around with MidJourney AI.",
+      "updateLog": [
+        { "date": "2024", "text": "—" }
+      ]
+    }
+  ]
+}

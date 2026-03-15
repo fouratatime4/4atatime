@@ -1,0 +1,141 @@
+# ============================================================
+# Decap CMS Configuration for 4atatime
+# This file tells the CMS: what sections exist, what fields
+# each project has, and where files are saved.
+# ============================================================
+
+backend:
+  name: git-gateway
+  branch: main            # The branch Netlify deploys from
+
+# Where uploaded images get stored in the repo
+media_folder: "assets/images/projects"
+public_folder: "/assets/images/projects"
+
+# ── Collections ────────────────────────────────────────────
+# Each collection = one section of the site.
+# Each "file" in a collection = one data/xxx.json file.
+# ──────────────────────────────────────────────────────────
+collections:
+
+  # ── UI/UX ────────────────────────────────────────────────
+  - name: "uiux"
+    label: "UI/UX"
+    files:
+      - name: "uiux_projects"
+        label: "UI/UX Projects"
+        file: "data/uiux.json"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            summary: "{{fields.title}} ({{fields.date}})"
+            fields:
+              - { label: "ID (no spaces, e.g. my-project)",  name: id,          widget: string }
+              - { label: "Date / Period (e.g. 2025 or 2024–2025)", name: date,  widget: string }
+              - { label: "Thumbnail image", name: image,     widget: image,     required: false,
+                  hint: "Upload a JPG or PNG. Landscape ratio (16:10) works best." }
+              - label: "Tags (up to 3)"
+                name: tags
+                widget: list
+                field: { label: Tag, name: tag, widget: string }
+              - { label: "Project title",      name: title,       widget: string }
+              - { label: "URL (relative like /viewpage/sifted.html, or full https://...)",
+                  name: url, widget: string, required: false }
+              - { label: "Short description",  name: description, widget: text }
+              - label: "Update Log entries"
+                name: updateLog
+                widget: list
+                fields:
+                  - { label: "Date",  name: date, widget: string }
+                  - { label: "Entry", name: text, widget: string }
+
+  # ── Graphics ─────────────────────────────────────────────
+  - name: "grafix"
+    label: "Grafix"
+    files:
+      - name: "grafix_projects"
+        label: "Grafix Projects"
+        file: "data/grafix.json"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            summary: "{{fields.title}} ({{fields.date}})"
+            fields:
+              - { label: "ID",              name: id,          widget: string }
+              - { label: "Date / Period",   name: date,        widget: string }
+              - { label: "Thumbnail image", name: image,       widget: image, required: false }
+              - label: "Tags"
+                name: tags
+                widget: list
+                field: { label: Tag, name: tag, widget: string }
+              - { label: "Project title",   name: title,       widget: string }
+              - { label: "URL",             name: url,         widget: string, required: false }
+              - { label: "Description",     name: description, widget: text }
+              - label: "Update Log"
+                name: updateLog
+                widget: list
+                fields:
+                  - { label: "Date",  name: date, widget: string }
+                  - { label: "Entry", name: text, widget: string }
+
+  # ── Ink ──────────────────────────────────────────────────
+  - name: "ink"
+    label: "Ink!"
+    files:
+      - name: "ink_projects"
+        label: "Ink! Projects"
+        file: "data/ink.json"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            summary: "{{fields.title}} ({{fields.date}})"
+            fields:
+              - { label: "ID",              name: id,          widget: string }
+              - { label: "Date / Period",   name: date,        widget: string }
+              - { label: "Thumbnail image", name: image,       widget: image, required: false }
+              - label: "Tags"
+                name: tags
+                widget: list
+                field: { label: Tag, name: tag, widget: string }
+              - { label: "Project title",   name: title,       widget: string }
+              - { label: "URL",             name: url,         widget: string, required: false }
+              - { label: "Description",     name: description, widget: text }
+              - label: "Update Log"
+                name: updateLog
+                widget: list
+                fields:
+                  - { label: "Date",  name: date, widget: string }
+                  - { label: "Entry", name: text, widget: string }
+
+  # ── Music ────────────────────────────────────────────────
+  - name: "music"
+    label: "mμsic"
+    files:
+      - name: "music_projects"
+        label: "mμsic Projects"
+        file: "data/music.json"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            summary: "{{fields.title}} ({{fields.date}})"
+            fields:
+              - { label: "ID",              name: id,          widget: string }
+              - { label: "Date / Period",   name: date,        widget: string }
+              - { label: "Thumbnail image", name: image,       widget: image, required: false }
+              - label: "Tags"
+                name: tags
+                widget: list
+                field: { label: Tag, name: tag, widget: string }
+              - { label: "Project title",   name: title,       widget: string }
+              - { label: "URL",             name: url,         widget: string, required: false }
+              - { label: "Description",     name: description, widget: text }
+              - label: "Update Log"
+                name: updateLog
+                widget: list
+                fields:
+                  - { label: "Date",  name: date, widget: string }
+                  - { label: "Entry", name: text, widget: string }

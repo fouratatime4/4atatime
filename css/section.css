@@ -1,0 +1,305 @@
+/* ============================================================
+   section.css — Section index pages: UI/UX, Grafix, Ink!, Music
+   ============================================================ */
+
+/* ── Section Header ────────────────────────────────────── */
+
+.section-header {
+  padding: var(--sp-16) var(--page-pad) var(--sp-10);
+  max-width: calc(var(--max-width) + var(--page-pad) * 2);
+  margin: 0 auto;
+}
+
+.section-back {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  margin-bottom: var(--sp-8);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.section-title {
+  font-size: var(--text-3xl);
+  color: var(--color-white);
+  margin-bottom: var(--sp-4);
+}
+
+.section-description {
+  font-family: var(--font-body);
+  font-size: var(--text-md);
+  max-width: 58ch;
+  line-height: 1.65;
+  color: var(--color-text);
+}
+
+/* ── Projects table ────────────────────────────────────── */
+
+.projects-section {
+  max-width: calc(var(--max-width) + var(--page-pad) * 2);
+  margin: 0 auto;
+  padding: 0 var(--page-pad) var(--sp-16);
+}
+
+/* Column headers row */
+.projects-col-headers {
+  display: grid;
+  grid-template-columns: 110px 1fr 200px;
+  gap: var(--sp-8);
+  padding: var(--sp-3) 0 var(--sp-3);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.projects-col-headers span {
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+/* ── Project row ───────────────────────────────────────── */
+
+.project-row {
+  display: grid;
+  grid-template-columns: 110px 1fr 200px;
+  gap: var(--sp-8);
+  padding: var(--sp-8) 0;
+  border-bottom: 1px solid var(--color-border);
+  align-items: start;
+}
+
+/* When column */
+.project-when {
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  line-height: 1.4;
+  padding-top: 3px;
+}
+
+/* Main project card */
+.project-main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.project-image-link {
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+  border: 1px solid var(--color-border);
+}
+
+.project-image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  background-color: var(--color-black);
+  transition: transform var(--ease-slow), opacity var(--ease-base);
+}
+
+.project-image-link:hover .project-image {
+  transform: scale(1.018);
+  opacity: 0.88;
+}
+
+.project-meta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+/* Tags */
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+.tag {
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  border: 1px solid var(--color-border);
+  padding: 2px var(--sp-3);
+  border-radius: 2px;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+/* Title */
+.project-title-link {
+  text-decoration: none;
+  display: inline-block;
+}
+.project-title-link:hover .project-title {
+  color: var(--color-accent);
+}
+
+.project-title {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 500;
+  color: var(--color-white);
+  letter-spacing: -0.01em;
+  transition: color var(--ease-fast);
+}
+
+/* Description */
+.project-description {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  color: var(--color-text);
+  max-width: 60ch;
+}
+
+/* Update log column */
+.project-log {
+  font-family: var(--font-display);
+  color: var(--color-muted);
+  padding-top: 3px;
+}
+
+.log-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: var(--sp-4);
+}
+.log-entry:last-child {
+  margin-bottom: 0;
+}
+
+.log-date {
+  font-size: var(--text-xs);
+  color: var(--color-accent);
+  letter-spacing: 0.02em;
+}
+
+.log-text {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  line-height: 1.45;
+}
+
+/* Loading / empty state */
+.projects-loading {
+  padding: var(--sp-20) 0;
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  letter-spacing: 0.03em;
+}
+
+/* ── Contact page ──────────────────────────────────────── */
+
+.contact-section {
+  padding: var(--sp-16) var(--page-pad) var(--sp-16);
+  max-width: calc(var(--max-width) + var(--page-pad) * 2);
+  margin: 0 auto;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  margin-top: var(--sp-10);
+}
+
+.contact-links a {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 400;
+  width: fit-content;
+}
+
+/* ── WIP page ──────────────────────────────────────────── */
+
+.wip-section {
+  padding: var(--sp-24) var(--page-pad);
+  max-width: calc(var(--max-width) + var(--page-pad) * 2);
+  margin: 0 auto;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wip-section h1 {
+  font-size: var(--text-3xl);
+  color: var(--color-white);
+  margin-bottom: var(--sp-4);
+}
+
+.wip-section p {
+  font-size: var(--text-md);
+  color: var(--color-text);
+  margin-bottom: var(--sp-8);
+  max-width: 44ch;
+}
+
+/* ── Responsive ────────────────────────────────────────── */
+
+@media (max-width: 900px) {
+  .projects-col-headers {
+    grid-template-columns: 80px 1fr 160px;
+    gap: var(--sp-6);
+  }
+  .project-row {
+    grid-template-columns: 80px 1fr 160px;
+    gap: var(--sp-6);
+  }
+  .project-log {
+    font-size: var(--text-xs);
+  }
+}
+
+@media (max-width: 640px) {
+  /* Stack everything on mobile */
+  .projects-col-headers {
+    display: none;
+  }
+
+  .project-row {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: var(--sp-3);
+    padding: var(--sp-6) 0;
+  }
+
+  .project-when {
+    order: 1;
+    padding-top: 0;
+  }
+
+  .project-main {
+    order: 2;
+  }
+
+  .project-image {
+    aspect-ratio: 16 / 9;
+  }
+
+  .project-log {
+    order: 3;
+    padding: var(--sp-3) 0 0;
+    border-top: 1px solid var(--color-border);
+    padding-top: var(--sp-3);
+    margin-top: var(--sp-1);
+  }
+
+  .section-title {
+    font-size: var(--text-2xl);
+  }
+
+  .contact-links a {
+    font-size: var(--text-lg);
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "guanglo",
+      "date": "2025",
+      "image": "guanglo.png",
+      "tags": ["Mobile App", "Backstage system"],
+      "title": "Guanglo",
+      "url": "/wip.html",
+      "description": "Standardised a scalable design system from scratch. Transformed complex workflows into a streamlined backstage management system.",
+      "updateLog": [
+        { "date": "11/2025", "text": "Backstage management design shipped" }
+      ]
+    },
+    {
+      "id": "sifted",
+      "date": "2023–2024",
+      "image": "sifted.png",
+      "tags": ["Web – Media", "Product"],
+      "title": "Sifted",
+      "url": "/viewpage/sifted.html",
+      "description": "At Sifted, I applied visual communication and UI design skills to support reports on European innovation and startups.",
+      "updateLog": [
+        { "date": "12/2023", "text": "Homepage redesign" }
+      ]
+    },
+    {
+      "id": "whatodo-nxt",
+      "date": "2023",
+      "image": "whatodo-nxt.png",
+      "tags": ["Design & Dev", "Personal Project"],
+      "title": "Whatodo:nxt",
+      "url": "/viewpage/whatodo-nxt.html",
+      "description": "A solo experiment in code and curiosity: free obscure advice by softly nudging a (digital) flower.",
+      "updateLog": [
+        { "date": "2023", "text": "Site functioning but still some bugs (too lazy to fix)." }
+      ]
+    },
+    {
+      "id": "musr",
+      "date": "2023",
+      "image": "musr.png",
+      "tags": ["Design System", "Start-up"],
+      "title": "Musr",
+      "url": "/viewpage/musr.html",
+      "description": "Establishing a cohesive visual language and reusable component library to ensure a consistent user experience.",
+      "updateLog": [
+        { "date": "2024", "text": "Design system in use." }
+      ]
+    }
+  ]
+}

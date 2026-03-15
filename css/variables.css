@@ -1,0 +1,119 @@
+/* ============================================================
+   variables.css — Design Tokens for 4atatime
+   ============================================================
+
+   FONTS
+   ─────
+   Display / Headlines / Nav / Logo → Berliner Grotesk (self-hosted)
+   Body / Paragraph / Details       → Roboto Serif (Google Fonts)
+
+   TO USE BERLINER GROTESK:
+   1. Purchase a web licence at optimo.ch
+   2. Place the .woff2 files in /assets/fonts/
+      - BerlinerGrotesk-Regular.woff2
+      - BerlinerGrotesk-Medium.woff2
+      - BerlinerGrotesk-Bold.woff2
+   3. Uncomment the @font-face block below
+   Until then, Outfit (Google Fonts) is the visual stand-in.
+   ============================================================ */
+
+/* Berliner Grotesk — uncomment once font files are in /assets/fonts/ */
+/*
+@font-face {
+  font-family: 'Berliner Grotesk';
+  src: url('../assets/fonts/BerlinerGrotesk-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Berliner Grotesk';
+  src: url('../assets/fonts/BerlinerGrotesk-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Berliner Grotesk';
+  src: url('../assets/fonts/BerlinerGrotesk-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+:root {
+  /* ── Colors ─────────────────────────────── */
+  --color-bg:        #292929;
+  --color-text:      #BABABA;
+  --color-accent:    #2A7B29;
+  --color-white:     #EDEDED;
+  --color-black:     #141414;
+  --color-muted:     rgba(186, 186, 186, 0.42);
+  --color-border:    rgba(186, 186, 186, 0.11);
+  --color-nav-bg:    rgba(41, 41, 41, 0.88);
+
+  /* ── Fonts ───────────────────────────────── */
+  /* Swap 'Berliner Grotesk' to front once font files are in assets/fonts/ */
+  --font-display: 'Berliner Grotesk', 'Outfit', 'DM Sans', sans-serif;
+  --font-body:    'Roboto Serif', Georgia, 'Times New Roman', serif;
+
+  /* ── Type Scale ──────────────────────────── */
+  --text-xs:   0.6875rem; /*  11px */
+  --text-sm:   0.8125rem; /*  13px */
+  --text-base: 1rem;      /*  16px */
+  --text-md:   1.0625rem; /*  17px */
+  --text-lg:   1.25rem;   /*  20px */
+  --text-xl:   1.5rem;    /*  24px */
+  --text-2xl:  2.25rem;   /*  36px */
+  --text-3xl:  3.25rem;   /*  52px */
+  --text-4xl:  4.25rem;   /*  68px */
+
+  /* ── Spacing ─────────────────────────────── */
+  --sp-1:  0.25rem;   /*  4px */
+  --sp-2:  0.5rem;    /*  8px */
+  --sp-3:  0.75rem;   /* 12px */
+  --sp-4:  1rem;      /* 16px */
+  --sp-5:  1.25rem;   /* 20px */
+  --sp-6:  1.5rem;    /* 24px */
+  --sp-8:  2rem;      /* 32px */
+  --sp-10: 2.5rem;    /* 40px */
+  --sp-12: 3rem;      /* 48px */
+  --sp-16: 4rem;      /* 64px */
+  --sp-20: 5rem;      /* 80px */
+  --sp-24: 6rem;      /* 96px */
+
+  /* ── Layout ──────────────────────────────── */
+  --nav-height:   64px;
+  --max-width:    1160px;
+  --page-pad:     clamp(1.25rem, 4.5vw, 2.75rem);
+
+  /* ── Grid background ─────────────────────── */
+  --grid-size:    80px;
+  --grid-color:   rgba(186, 186, 186, 0.055);
+
+  /* ── Transitions ─────────────────────────── */
+  --ease-fast:    140ms ease;
+  --ease-base:    240ms ease;
+  --ease-slow:    420ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ── Tablet (≤ 1024px) ───────────────────────── */
+@media (max-width: 1024px) {
+  :root {
+    --grid-size:  56px;
+    --text-3xl:   2.625rem;
+    --text-4xl:   3.25rem;
+  }
+}
+
+/* ── Mobile (≤ 640px) ────────────────────────── */
+@media (max-width: 640px) {
+  :root {
+    --grid-size:  40px;
+    --nav-height: 56px;
+    --text-2xl:   1.75rem;
+    --text-3xl:   2.125rem;
+    --text-4xl:   2.5rem;
+  }
+}
